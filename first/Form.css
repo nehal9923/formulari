@@ -1,0 +1,44 @@
+/* Style the first fieldset */
+fieldset:nth-of-type(1) {
+    background-color:aqua ; /* Aqua */
+  }
+  
+  /* Style the second fieldset */
+  fieldset:nth-of-type(2) {
+    background-color: #FF00FF	; /* Fuchsia */
+  }
+  
+  /* Style the third fieldset */
+  fieldset:nth-of-type(3) {
+    background-color: #FFFF00; /* Yellow */
+  }
+  
+  /* Style the fourth fieldset */
+  fieldset:nth-of-type(4) {
+    background-color: #008000; /* Green */
+  }
+  
+  /* Style the fifth fieldset */
+  fieldset:nth-of-type(5) {
+    background-color: #808080; /* Grey */
+  }
+
+   /* Style the fifth fieldset */
+  fieldset:nth-of-type(6) {
+    background-color: #F76B24; /* Orange */
+  }
+
+  /* Style the fifth fieldset */
+  fieldset:nth-of-type(7) {
+    background-color: #D04556; /* Grey */
+  }
+
+  /* Style the fifth fieldset */
+  fieldset:nth-of-type(8) {
+    background-color:#565151 ; /* Grey */
+  }
+
+  h1{
+    text-align: center;
+    color: red;
+  }

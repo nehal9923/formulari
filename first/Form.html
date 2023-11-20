@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="Form.css" rel="stylesheet" media="all">
+    <title>Document</title>
+</head>
+<body>
+     <h1>ENCUESTA PROFESSORAT</h1>
+    <form action="ejemplo.php" method="get">
+       <fieldset> 
+        <legend>Datos Personales</legend>
+        <p>Edat:</p>
+         <input type="number" name="edad" size="40" placeholder="Inserta tu edad"></p>
+        <p>Email:</p>
+         <input type="email" name="email" size="40"></p>
+        <p>Contrassenya:</p>
+         <input type="password" name="Contrasenya" placeholder="Inserta tu contraseña"></p>
+        <p>Data de naixement: </p> 
+         <input type="date" name="fecha"></p>
+        <p>*Campos obligatorios</p>
+       </fieldset>
+       <fieldset>
+        <legend>Modulos a evaluar</legend> 
+          <select name="menu">
+            <option>Selecciona</option>
+            <option>m01</option>
+            <option>m02</option>
+            <option>m03</option>
+            <option>m04</option>
+          </select>
+       </fieldset>
+       <fieldset>
+         <legend>Cicle</legend>
+          <input type="radio" name="ASIX" value="h"> ASIX
+          <input type="radio" name="DAM" value="m"> DAM
+          <input type="radio" name="DAW" value="h"> DAW
+          <input type="radio" name="BIOINFORMÁTICA" value="h"> BIOINFORMÁTICA
+        </p>
+       </fieldset>
+       <fieldset>
+        <legend>Professor a evaluar</legend>
+          <p>Nom Professor</p>
+           <input type="text" name="profesor" placeholder="Inseriu el nom"></p>
+           <p>Grau de satisfacció del 0 al 10</p>
+           <input type="range" name="Grado satisfacción" min="0" max="10" list="lista-rango">
+          <p>comentaris</p>
+           <textarea name="comentarios" placeholder="Inseriu els comentaris"></textarea>
+       </fieldset>
+       <fieldset>
+         <legend>Explica alguna sobre tu</legend>
+         <p>Ets repetidor?</p>
+          <input type="checkbox" name="Si" value="1">Si <input type="checkbox" name="boton" value="2" checked>No
+         <p>Color preferit</p>
+          <input type="color" name="ColorPreferido">
+         <p>Dirección Web</p>
+          <input type="url" name="Dirección web">
+         <p>Situación actual</p>
+         <input type="url" name="Situación actual"
+         <p></p>
+          <input type="file" name="archivo" value="image/*">
+       </fieldset>
+       <fieldset>
+         <legend>CURSOS EXTRES</legend>
+          <input type="checkbox" name="Cloud Computing" checked>Cloud Computing <input type="checkbox" name="Big Data" checked>Big Data <input type="checkbox" name="Unity5" checked>Unity5 
+       </fieldset>
+       <fieldset>
+         <legend>Fecha Enquesta</legend>
+          Fecha: <input type="datetime-local" name="fechayhora">
+          Hora: <input type="time" name="Hora">
+       </fieldset>
+       <fieldset>
+        <input type="submit" value="Envia"> 
+        <input type="submit" value="Esborra">
+        <input type="submit" value="Surt">
+       </fieldset>
+      </form>
+   
+</body>
+</html>
